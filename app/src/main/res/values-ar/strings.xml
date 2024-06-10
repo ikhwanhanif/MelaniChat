@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MelaniChat</string>
+    <string name="tambah_gambar">إضافة صورة</string>
+    <string name="nama">اسم</string>
+    <string name="email">بريد إلكتروني</string>
+    <string name="kata_sandi">كلمة المرور</string>
+    <string name="ulangi_kata_sandi">تأكيد كلمة المرور</string>
+    <string name="daftar">سجل</string>
+    <string name="sudah_punya_akun">هل لديك حساب؟</string>
+    <string name="lupa_kata_sandi">هل نسيت كلمة السر؟</string>
+    <string name="masuk">تسجيل الدخول</string>
+    <string name="belum_punya_akun">ليس لديك حساب؟</string>
+    <string name="pilih_bahasa">اختر لغة</string>
+    <string name="bahasa">لغة</string>
+    <string name="signup">SignUp\u0020</string>
+    <string name="signin">SignIn\u0020</string>
+    <string name="tidak_dapat_masuk">غير قادر على تسجيل الدخول</string>
+    <string name="crop_gagal">فشل الاقتصاص</string>
+    <string name="type_message">اكتب الرسالة</string>
+    <string name="select_user">اختر المستخدم</string>
+    <string name="unable_to_sign_out">غير قادر على تسجيل الخروج</string>
+    <string name="signing_out">تسجيل خروج…</string>
+    <string name="unable_to_update_token">غير قادر على تحديث الرمز المميز</string>
+    <string name="enter_email">أدخل البريد الإلكتروني</string>
+    <string name="enter_valid_email">أدخل بريدًا إلكترونيًا صالحًا</string>
+    <string name="enter_password">أدخل كلمة المرور</string>
+    <string name="select_profile_image">حدد صورة الملف الشخصي</string>
+    <string name="enter_name">أدخل الاسم</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="password_and_confirm_password_must_be_same">"كلمة المرور وتأكيد كلمة المرور يجب أن تكون هي نفسها"</string>
+    <string name="no_user_available">لا يوجد مستخدم متاح</string>
+</resources>

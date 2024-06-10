@@ -1,0 +1,71 @@
+plugins {
+    id 'com.android.application' // Plugin untuk mendefinisikan bahwa proyek ini adalah sebuah aplikasi Android.
+    id 'com.google.gms.google-services' // Plugin untuk mengintegrasikan layanan Google Play seperti Firebase ke dalam proyek.
+}
+
+android {
+    namespace 'ikhwan.hanif.melanichat' // Namespace untuk aplikasi.
+    compileSdk 34 // Versi SDK yang digunakan untuk kompilasi aplikasi.
+
+    defaultConfig {
+        applicationId "ikhwan.hanif.melanichat" // ID aplikasi yang digunakan.
+        minSdk 26 // Versi minimum SDK yang diperlukan untuk menjalankan aplikasi.
+        targetSdk 34 // SDK target yang digunakan untuk menguji aplikasi.
+        versionCode 4 // Kode versi aplikasi.
+        versionName "4" // Nama versi aplikasi.
+
+        multiDexEnabled true // Mengaktifkan MultiDex untuk mendukung aplikasi yang memiliki lebih dari 64K metode.
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner" // Runner yang digunakan untuk menguji aplikasi.
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false // Menonaktifkan shrinking untuk jenis build release.
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro' // File konfigurasi ProGuard yang digunakan untuk jenis build release.
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8 // Kompatibilitas sumber kode dengan Java 8.
+        targetCompatibility JavaVersion.VERSION_1_8 // Kompatibilitas target dengan Java 8.
+    }
+
+    buildFeatures {
+        viewBinding true // Mengaktifkan view binding.
+    }
+
+    bundle {
+        language {
+            enableSplit = false // Menonaktifkan pembagian bahasa.
+        }
+    }
+}
+
+dependencies {
+
+    // Library AndroidX
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.activity:activity:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    // Library Firebase
+    implementation platform('com.google.firebase:firebase-bom:33.1.0')
+    implementation 'com.google.firebase:firebase-messaging:24.0.0'
+    implementation 'com.google.firebase:firebase-firestore:25.0.0'
+    implementation 'com.google.firebase:firebase-auth:23.0.0'
+    implementation 'com.google.firebase:firebase-database:21.0.0'
+    implementation 'com.google.firebase:firebase-storage:21.0.0'
+
+    // Library lainnya
+    implementation 'com.intuit.sdp:sdp-android:1.1.1'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.github.yalantis:ucrop:2.2.8'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+}

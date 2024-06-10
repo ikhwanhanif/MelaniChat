@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/animated_gradient"
+    tools:context=".activities.ChatActivity">
+
+    <View
+        android:id="@+id/viewBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_content_top"
+        android:layout_above="@id/inputMessage"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/viewSupporter"
+        android:layout_alignParentStart="true"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="40dp"
+        android:id="@+id/imageBack"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/baseline_arrow_back_ios_new_24"
+        />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="40dp"
+        android:id="@+id/imageInfo"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nama"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/textName"
+        android:layout_alignTop="@id/imageBack"
+        android:layout_toEndOf="@id/imageBack"
+        android:layout_toStartOf="@id/imageInfo"
+        />
+    <TextView
+        android:id="@+id/textAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/design_default_color_error"
+        android:text="Offline"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_below="@id/textName"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/viewSupporter"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/imageBack"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/inputMessage"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/chatRecyclerView"
+        android:clipToPadding="false"
+        android:visibility="gone"
+        app:stackFromEnd="true"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        android:padding="15dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_below="@id/viewSupporter"
+        />
+
+    <ProgressBar
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/progressBar"
+        android:indeterminateTint="@color/very_dark_grey"
+        android:layout_centerInParent="true"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/layoutSend"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/background_ln"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:src="@drawable/send"
+            app:tint="@color/white"
+            />
+
+    </FrameLayout>
+    <EditText
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:id="@+id/inputMessage"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:background="@drawable/background_ln"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColorHint="@color/very_dark_grey"
+        android:textColor="@color/white"
+        android:layout_toStartOf="@id/layoutSend"
+        android:hint="@string/type_message"
+        />
+
+
+</RelativeLayout>

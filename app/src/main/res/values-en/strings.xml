@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MelaniChat</string>
+    <string name="tambah_gambar">add image</string>
+    <string name="nama">name</string>
+    <string name="email">email</string>
+    <string name="kata_sandi">password</string>
+    <string name="ulangi_kata_sandi">confirm password</string>
+    <string name="daftar">Regist</string>
+    <string name="sudah_punya_akun">already have an account?</string>
+    <string name="lupa_kata_sandi">forgot password?</string>
+    <string name="masuk">Login</string>
+    <string name="belum_punya_akun">don\'t have an account?</string>
+    <string name="pilih_bahasa">Select a language</string>
+    <string name="bahasa">Language</string>
+    <string name="signup">\u0020SignUp</string>
+    <string name="signin">\u0020SignIn</string>
+    <string name="tidak_dapat_masuk">unable to sign in</string>
+    <string name="crop_gagal">Crop failed</string>
+    <string name="type_message">type message</string>
+    <string name="select_user">Select User</string>
+    <string name="unable_to_sign_out">Unable to sign out</string>
+    <string name="signing_out">Signing out…</string>
+    <string name="enter_email">Enter email</string>
+    <string name="unable_to_update_token">Unable to update token</string>
+    <string name="enter_valid_email">Enter Valid Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="select_profile_image">Select profile pict</string>
+    <string name="enter_name">Enter name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="password_and_confirm_password_must_be_same">"Password and confirm Password must be same"</string>
+    <string name="no_user_available">No User Available</string>
+</resources>

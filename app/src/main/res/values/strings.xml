@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MelaniChat</string>
+    <string name="tambah_gambar">gambar</string>
+    <string name="nama">nama</string>
+    <string name="email">email</string>
+    <string name="kata_sandi">password</string>
+    <string name="ulangi_kata_sandi">konfirmasi password</string>
+    <string name="daftar">Daftar</string>
+    <string name="sudah_punya_akun">sudah punya akun?</string>
+    <string name="lupa_kata_sandi">lupa password?</string>
+    <string name="masuk">Masuk</string>
+    <string name="belum_punya_akun">belum punya akun?</string>
+    <string name="pilih_bahasa">Pilih Bahasa</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="signup">\u0020SignUp</string>
+    <string name="signin">\u0020SignIn</string>
+    <string name="tidak_dapat_masuk">tidak dapat masuk</string>
+    <string name="crop_gagal">Crop gagal</string>
+    <string name="type_message">ketik pesan</string>
+    <string name="select_user">Pilih Pengguna</string>
+    <string name="unable_to_sign_out">Ga bisa keluar</string>
+    <string name="signing_out">keluar…</string>
+    <string name="unable_to_update_token">Gagal memperbarui token</string>
+    <string name="enter_email">Masukkan email</string>
+    <string name="enter_valid_email">Masukkan Email yang Benar</string>
+    <string name="enter_password">Masukkan Password</string>
+    <string name="select_profile_image">Pilih poto profil</string>
+    <string name="enter_name">Masukkan nama</string>
+    <string name="confirm_password">Ulangi password</string>
+    <string name="password_and_confirm_password_must_be_same">"Password dan konfirmasi password harus sama"</string>
+    <string name="no_user_available">Tidak ada pengguna</string>
+</resources>
