@@ -2,7 +2,7 @@
 <img width="100" alt="icon-chat" src="app/src/main/res/drawable/icon.png">
 
 ## Description
-This is a simple Chat app called Melani Chat using Firebase, Java with Android Studio. you can chat with all user in this app, you can use any email for regist.
+This is a simple chat app called Melani Chat using Firebase, Java with Android Studio. you can chat with all user in this app, you can use any email for regist.
 
 ## Key Features
 - Change password by yourself.
