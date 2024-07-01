@@ -47,4 +47,4 @@ https://play.google.com/store/apps/details?id=ikhwan.hanif.melanichat&pcampaigni
 Contributions and suggestions for improvement are always welcome. If you would like to contribute to this project, please create a pull request.
 
 ## License
-This project is licensed under the [Apache License](LICENSE.txt).
+This project is licensed under the [Apache License](LICENSE).
