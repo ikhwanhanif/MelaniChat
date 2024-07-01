@@ -41,7 +41,7 @@ This is a simple chat app called Melani Chat using Firebase, Java with Android S
 8. You can choose language in login page (Arabic, English, France, Indonesia).
 
 ## Download
-https://play.google.com/store/apps/details?id=ikhwan.hanif.melanichat&pcampaignid=web_share
+[Apache License](https://play.google.com/store/apps/details?id=ikhwan.hanif.melanichat&pcampaignid=web_share)
 
 ## Contribution
 Contributions and suggestions for improvement are always welcome. If you would like to contribute to this project, please create a pull request.
